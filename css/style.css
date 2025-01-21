@@ -1,0 +1,31 @@
+/*Entire form*/
+form{
+    background-color: aqua;
+width: 50%;
+margin:0 auto;
+padding: 30px;
+    box-shadow: 12px 8px 4px #3ed0ea;/*horizontalyy,vertically,how far the shadow go colour of the shadow*/
+border-radius: 15px;
+
+}
+/*header*/
+legend{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    text-shadow: 4px 4px 12px black;
+
+}
+input[type=text],input[type=email],input[type=number],input[type=date],input[type=password],input[type=file],select,textarea{
+
+height: 30px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px #1b8db6;
+
+}
+button{
+    background-color: #044b65;
+    border-radius: 5px;
+}
